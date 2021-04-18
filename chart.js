@@ -1,3 +1,4 @@
+let apiData = require("./api_data");
 apiData().then(cities => {
     let html = '<h2> Temperature Chart</h2>';
     let body = document.getElementById("body");
